@@ -1,0 +1,38 @@
+# Core Dependencies
+python>=3.10
+
+# Azure OpenAI
+openai>=1.12.0
+azure-ai-inference>=1.0.0
+
+# Vector Database - Pinecone
+pinecone-client>=3.0.0
+
+# Alternative: Weaviate (uncomment if using Weaviate instead)
+# weaviate-client>=4.4.0
+
+# LangGraph for workflow orchestration
+langgraph>=0.0.20
+langgraph-checkpoint>=0.0.1
+
+# LangChain core (required by LangGraph)
+langchain-core>=0.1.0
+langchain>=0.1.0
+
+# Google Gemini for critique
+google-generativeai>=0.3.0
+
+# MLflow for observability and experiment tracking
+mlflow>=2.10.0
+
+# Data handling
+pydantic>=2.0.0
+typing-extensions>=4.9.0
+
+# Utilities
+tqdm>=4.66.0
+python-dotenv>=1.0.0
+
+# Optional: Jupyter for experimentation
+# jupyter>=1.0.0
+# notebook>=7.0.0
